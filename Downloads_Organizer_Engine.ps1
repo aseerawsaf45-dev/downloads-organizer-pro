@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Downloads Organizer Enterprise Engine
+    Downloads Organizer Pro Engine
     High-fidelity file detection, deep taxonomy, signature sniffing, and safe rollback.
 #>
 
@@ -14,7 +14,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 # Set console title & encoding
-try { $Host.UI.RawUI.WindowTitle = 'Downloads Organizer Pro (Enterprise Edition)' } catch {}
+try { $Host.UI.RawUI.WindowTitle = 'Downloads Organizer Pro' } catch {}
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
 
 # --- CATEGORY TAXONOMY DEFINITION (500+ EXTENSIONS) ---
@@ -367,7 +367,7 @@ function Invoke-Undo {
 
 Write-Host @"
 ========================================================================
-       DOWNLOADS ORGANIZER PRO -- ENTERPRISE RELIABILITY EDITION        
+                      DOWNLOADS ORGANIZER PRO                           
 ========================================================================
  Target Path: $TargetDirectory
  Engine:      Deep Taxonomy + Registry MIME + Binary Signature Sniffing

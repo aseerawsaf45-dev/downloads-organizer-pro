@@ -1,4 +1,4 @@
-# ⚡ Downloads Organizer Pro (Enterprise Edition)
+# ⚡ Downloads Organizer Pro
 
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Shell: Batch & PowerShell](https://img.shields.io/badge/Shell-Hybrid%20Batch%20%2B%20PowerShell%205.1%2B-5391FE?logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
@@ -15,7 +15,7 @@
 
 Most download organizer scripts are simple fragile `.bat` loops that choke on special characters, break project repositories, corrupt in-progress browser downloads, or overwrite duplicate filenames.
 
-**Downloads Organizer Pro** was engineered with enterprise software reliability principles:
+**Downloads Organizer Pro** was engineered with high reliability and zero-risk design:
 
 - 🛡️ **Active Download Guard**: Automatically detects and ignores active downloads (`.crdownload`, `.part`, `.download`, `*.tmp`, `!qb`, `*.aria2`) and actively locked files.
 - 🧬 **Tri-Tier Detection Engine**:
