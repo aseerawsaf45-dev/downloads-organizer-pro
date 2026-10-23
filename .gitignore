@@ -1,0 +1,17 @@
+# Testing sandboxes
+test_sandbox/
+bat_sandbox/
+
+# Rollback transaction logs
+_Organizer_History/
+
+# Temporary and log files
+*.tmp
+*.log
+*.crdownload
+*.part
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
